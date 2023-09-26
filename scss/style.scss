@@ -1,9 +1,10 @@
-@import "./header";
-@import "./hero";
-@import "./about";
+@import "./components/header";
+@import "./components/hero";
+@import "./components/about";
+@import "./components/city";
+@import "./components/gathering";
 
-
-.container {
+.container{
     width: 1153px;
     margin: 0 auto;
 }
@@ -20,4 +21,5 @@ a {
 
 html {
     position: relative;
+    overflow-x:hidden
 }

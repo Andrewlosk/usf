@@ -1,0 +1,48 @@
+.gathering{
+    background-color: #050404;
+    position: relative;
+    padding: 92px 0;
+    &__title{
+        position: absolute;
+        top: 36px;
+        right: 21%;
+        color: #FFD76E;
+        font-family: Inter;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+    }
+    &__desk{
+        position: absolute;
+        top: 155px;
+        right: 21%;      
+        color: #FFF;
+        text-align: justify;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 559px;
+        margin: 0;
+    }
+    &__btn{
+        position: absolute;
+        top: 441px;
+        right: 21%; 
+        padding: 0;
+        color: #000;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border-radius: 10px;
+        background: #FFD76E;
+        padding: 15px 31px;
+        border: none;
+        
+    }
+}

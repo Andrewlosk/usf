@@ -1,0 +1,52 @@
+.city{
+    padding: 72px 0 79px 0;
+    background-image: url(../img/lviv_back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    &__title{
+        color: #000;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-align: center;
+        margin: 0;
+    }
+    &__desk{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        width: 351px;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+    &__box--white{
+        box-sizing:border-box;
+        width: 178.9px;
+        height: 340.934px;
+        transform: rotate(-100.004deg);
+        border: 2px solid #FFF;
+        position: absolute;
+        right: -150px;
+        bottom: -52px;
+    }
+    &__box--yellow{
+        box-sizing: border-box;
+        width: 247.547px;
+        height: 369.028px;
+        transform: rotate(-10.004deg);
+        border: 2px solid #FFD76E;
+        position: absolute;
+        right: 0;
+        bottom: 35px;
+
+    }
+}
