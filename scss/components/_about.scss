@@ -1,120 +1,137 @@
-.about_us{
+.about{
     background: #050404;
-    position: relative;
+
     height: 1211px;
-}
 
-.about_title{
-    color: #FFD76E;
-    text-align: center;
-    font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
-    padding: 40px 0;
-}
+    &__list{
+        height: 626px;
+        position: relative;
+    }
 
-.about_top_p{
-    color: #FFF;
+    &__title{
+        color: #FFD76E;
+        text-align: center;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+        padding: 40px 0;
+    }
+
+    &__desk{
+        color: #FFF;
+        text-align: justify;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0;
+    }
+
+    &__group{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 892px;
+    }
+
+
+    &__subtitle{
+        color: #FFD76E;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        position: absolute;
+        top: 43.5%;
+        left: 59%;
+    }
+    &__list__item{
+        text-align: center;
+        &__desk{
+            color: #FFF;
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+             margin: 0;
     
-    text-align: justify;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
+        }
+    }
+
+    .alex__img{
+        margin-bottom: 8px;
+    }
+    .taras__img{
+        margin-bottom: 19px;
+    }
+
+    .jesika__img{
+       margin-bottom: 19px;
+    }
+
+    .alex{
+        position: absolute;
+        top: 37%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 200;
     
-}
+    }
 
-.about_group_p{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    justify-content: center;
+    .taras{
+        position: absolute;
+        top: 59%;
+        left: 16.5%;
+    }
 
-    text-align: center;
-    margin: 0 auto;
-    width: 892px;
-}
+    .jesika{
+        position: absolute;
+        top: 59%;
+        left: 44.5%;
+    }
 
-
-
-.about_title_low{
-    color: #FFD76E;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    position: absolute;
-    top: 53%;
-
-    left: 59%;
-}
-
-.people_list_item_p{
-    color: #FFF;
-    font-family: Inter;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin: 0;
-    
-}
-
-.people_list_item{
-    text-align: center;
-}
-
-.alex{
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 200;
-    
-}
-
-.taras{
-    position: absolute;
-    top: 67%;
-    left: 29.5%;
-}
-
-.jesika{
-    position: absolute;
-    top: 67%;
-    left: 46.5%;
+    .teodora{
+       position: absolute;
+        top: 44.5%;
+        left: 64.5%;
+    }
 
 }
 
-.teodora{
-    position: absolute;
-    top: 60%;
-    left: 59%;
-}
 
-.alex_img{
-    margin-bottom: 8px;
-}
-.taras_img{
-    margin-bottom: 19px;
-}
 
-.jesika_img{
-    margin-bottom: 19px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .yellow_box_about {
     width: 334px;
     height: 493px;
     border: 2px solid #FFD76E;
     position: absolute;
-    top: 42%;
+    top: 40%;
     left: 32.5%;
 
 }
@@ -125,7 +142,7 @@
     transform: rotate(-90deg);
     border: 2px solid #FFF;
     position: absolute;
-    top: 58.5%;
+    top: 45.9%;
     left: 47%;
 }
 
@@ -138,7 +155,7 @@
     transform: rotate(-100.004deg);
     border: 2px solid #FFF;
     position: absolute;
-    top: 23%;
+    top: 31%;
     left: -10px;
 }
 
@@ -148,6 +165,6 @@
     transform: rotate(-10.004deg);
     border: 2px solid #FFD76E;
     position: absolute;
-    top: 10%;
+    top: 26.8%;
     left: -323px;
 }

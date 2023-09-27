@@ -1,4 +1,4 @@
-header {
+.header {
     background-color: #050404;
     height: 72px;
     width: 100%;
@@ -7,29 +7,32 @@ header {
     left: 0;
     z-index: 1500;
 
-}
 
-.header_list_item>a {
-    color: #FFF;
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 200;
-    line-height: normal;
-}
+    &__item>a {
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+    
+    &__item>a:hover {
+        text-shadow: 1px 1px 6px yellow, 0 0 1em yellow, 0 0 0.2em blue;
+        color: white;
+    }
 
-.header_list_item>a:hover {
-    text-shadow: 1px 1px 6px yellow, 0 0 1em yellow, 0 0 0.2em blue;
-    color: white;
-}
-
-
-.header_list {
+    &__list {
     display: flex;
     gap: 20.5px;
     position: absolute;
     top: 10px;
     right: 400px;
-
-
+    }
 }
+
+
+
+
+
+

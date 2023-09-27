@@ -1,11 +1,13 @@
 .gathering{
     background-color: #050404;
     position: relative;
-    padding: 92px 0;
+    padding: 41px 0 92px 0;
+    .container{
+        display: flex;
+        justify-content: space-between;
+    }
     &__title{
-        position: absolute;
-        top: 36px;
-        right: 21%;
+
         color: #FFD76E;
         font-family: Inter;
         font-size: 64px;
@@ -14,10 +16,15 @@
         line-height: normal;
         margin: 0;
     }
+    &__group{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        max-width: 625px;
+    }
     &__desk{
-        position: absolute;
-        top: 155px;
-        right: 21%;      
+
+
         color: #FFF;
         text-align: justify;
         font-family: Inter;
@@ -27,11 +34,11 @@
         line-height: normal;
         width: 559px;
         margin: 0;
+        margin-top: 24px;
     }
     &__btn{
-        position: absolute;
-        top: 441px;
-        right: 21%; 
+
+
         padding: 0;
         color: #000;
         font-family: Inter;
@@ -43,6 +50,10 @@
         background: #FFD76E;
         padding: 15px 31px;
         border: none;
+        margin-top: 105px;
         
+    }
+    &__img{
+        padding-top: 58px;
     }
 }

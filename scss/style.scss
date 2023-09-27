@@ -3,6 +3,7 @@
 @import "./components/about";
 @import "./components/city";
 @import "./components/gathering";
+@import "./components/support";
 
 .container{
     width: 1153px;
@@ -22,4 +23,9 @@ a {
 html {
     position: relative;
     overflow-x:hidden
+    
+}
+
+body{
+    background-color: #050404;
 }
