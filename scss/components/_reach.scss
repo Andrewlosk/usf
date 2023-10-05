@@ -1,0 +1,48 @@
+.reach{
+    padding: 54px 0 112px 0;
+    margin-left: 100px;
+    
+    &__title{
+        color: #FFD76E;
+        font-family: Inter;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin: 0 ;
+        margin-left: -100px;
+        margin-bottom: 20px;
+    }
+
+    &__desk{
+        @include reach_desk();
+        padding: 22px 12px;
+        width: 312px;
+        margin: 0;
+        margin: 49px 0 50px 0;
+    }
+    &__desk1{
+        @include reach_desk();
+        padding: 95px 5px 44px 4px;
+        // width: 312px;
+        margin: 0;
+        margin-bottom: 41px;
+        
+    }
+
+    &__desk2{
+        @include reach_desk();
+        padding: 148px 15px 66px 15px;
+        // width: 312px;
+        margin: 0;
+        margin-top: 16px;
+    }
+
+    &__list{
+        display: flex;
+        gap: 40px;
+
+        margin-right: 50px;
+    }
+}

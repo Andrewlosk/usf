@@ -1,4 +1,4 @@
-@import "./utils/colors", "./utils/variables";
+@import "./utils/colors", "./utils/variables", "./utils/mixin";
 
 @import "./components/header";
 @import "./components/hero";
@@ -6,6 +6,8 @@
 @import "./components/city";
 @import "./components/gathering";
 @import "./components/support";
+@import "./components/games";
+@import "./components/reach";
 
 .container{
     width: 1153px;

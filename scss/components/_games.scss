@@ -1,0 +1,62 @@
+.games{
+    
+    padding: 43px 0 180px 0;
+    background-image: url(../img/games_back.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    &__allblock{
+        display: flex;
+        flex-direction: column;
+        gap: 291px;
+    }
+
+    &__title{
+        color: #FFD76E;
+        font-family: Inter;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    &__whitebox{
+        width: 301.79px;
+        height: 294.315px;
+        border: 5px solid #8CBAFF;
+        background: #FFF;
+    }
+
+    &__desk{
+        margin: 0 auto;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-align: center;
+        margin-top: 22.5px;
+
+    }
+    &__block1__block{
+        display: flex;
+        align-items: center;
+        gap: 15.5px;
+    }
+    &__left__arrow{
+        transform: rotate(180deg);
+    }
+
+    &__cenblock{
+        display: flex;
+        align-items: center;
+        gap: 65px;
+    }
+    // &__item{
+        
+    // }
+}
